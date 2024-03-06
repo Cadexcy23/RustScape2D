@@ -1,5 +1,6 @@
 
 #include <SDL.h>
+#undef main
 #include <SDL_image.h>
 #include <stdio.h>
 #include <string>
@@ -10,9 +11,9 @@
 #include "Inventory.h"
 #include "Saving.h"
 
-
-int main(int argc, char* args[])
+static int start(int argc, char* args[])
 {
+
 	//Declare Artist and controller
 	Artist Artist;
 	Controller Controller;
@@ -67,4 +68,14 @@ int main(int argc, char* args[])
 	Artist.close();
 
 	return 0;
+}
+
+int WinMain(int argc, char* args[])
+{
+	start(argc, args);
+}
+
+int main(int argc, char* args[])
+{
+	start(argc, args);
 }
