@@ -1,13 +1,14 @@
-Title: RustScape2D\
+# RustScape2D
 Description: Top-down point and click adventure. Adapting [ConsoleApplication1](https://github.com/Cadexcy23/ConsoleApplication1) to 2D using SDL.\
 Author: Caden Metzgus\
 Created: 4/23/2018\
 Platform: Windows\
-Controls:\
-Click - Everything!
----
 ![image](https://github.com/Cadexcy23/RustScape2D/assets/51723869/bdab40e0-ceda-4ae0-ab3d-65c95ce48233)
 
+## Controls
+Click - Everything!
+
+## In-game
 Left click to walk around.\
 ![RustScape2DWalk](https://github.com/Cadexcy23/RustScape2D/assets/51723869/c94b6fec-1376-4e4c-9fff-633212ce5010)
 
